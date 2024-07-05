@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function MyComponent() {
-  let [name, setName] = useState();
+  const [name, setName] = useState();
   const [age, setAge] = useState(0); // The argument passed in is for a default value
   const [isEmployed, setIsEmployed] = useState(false);
 
