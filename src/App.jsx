@@ -1,11 +1,9 @@
-import MyComponent from "./MyComponent";
-import ProfilePicture from "./ProfilePicture";
+import Counter from "./counter";
 
 function App() {
   return (
     <>
-      <MyComponent />
-      <ProfilePicture />
+      <Counter />
     </>
   );
 }
