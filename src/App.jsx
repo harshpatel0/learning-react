@@ -1,11 +1,5 @@
-import MyComponent from "./OldComponents/onChange";
-
 function App() {
-  return (
-    <>
-      <MyComponent />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
