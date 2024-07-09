@@ -1,9 +1,9 @@
-import Counter from "./counter";
+import MyComponent from "../onChange";
 
 function App() {
   return (
     <>
-      <Counter />
+      <MyComponent />
     </>
   );
 }
