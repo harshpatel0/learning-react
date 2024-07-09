@@ -1,4 +1,4 @@
-import MyComponent from "../onChange";
+import MyComponent from "./OldComponents/onChange";
 
 function App() {
   return (
