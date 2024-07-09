@@ -38,7 +38,11 @@ function MyComponent() {
       <input placeholder="" type="text" onChange={(e) => handleNameChange(e)} />
 
       <p>Order Quantity: {quantity}</p>
-      <input type="number" onChange={(e) => handleQuantityChange(e)} />
+      <input
+        value={quantity}
+        type="number"
+        onChange={(e) => handleQuantityChange(e)}
+      />
 
       <p>Additional Delivery Instructions: {comment}</p>
       <textarea
